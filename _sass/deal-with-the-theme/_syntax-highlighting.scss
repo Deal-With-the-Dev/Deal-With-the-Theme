@@ -2,14 +2,14 @@
  * Syntax highlighting styles
  */
 .highlight {
-  background: #fff;
+  background: #110914;
   @extend %vertical-rhythm;
 
   .highlighter-rouge & {
-    background: #eef;
+    background: #110914;
   }
 
-  .c     { color: #998; font-style: italic } // Comment
+  .c     { color: #fff; font-style: italic } // Comment
   .err   { color: #a61717; background-color: #e3d2d2 } // Error
   .k     { font-weight: bold } // Keyword
   .o     { font-weight: bold } // Operator

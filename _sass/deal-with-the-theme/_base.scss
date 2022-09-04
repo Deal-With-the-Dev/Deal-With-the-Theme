@@ -151,7 +151,8 @@ code {
   @include relative-font-size(0.9375);
   border: 1px solid $grey-color-light;
   border-radius: 3px;
-  background-color: #eef;
+  background-color: $dark-background-color;
+  color: $text-light-color;
 }
 
 code {
@@ -234,21 +235,21 @@ table {
   text-align: $table-text-align;
   color: lighten($text-color, 18%);
   border-collapse: collapse;
-  border: 1px solid $grey-color-light;
+  border: 1px solid $dark-background-color;
   tr {
     &:nth-child(even) {
-      background-color: lighten($grey-color-light, 6%);
+      background-color: lighten($dark-background-color, 6%);
     }
   }
   th, td {
     padding: ($spacing-unit / 3) ($spacing-unit / 2);
   }
   th {
-    background-color: lighten($grey-color-light, 3%);
-    border: 1px solid darken($grey-color-light, 4%);
-    border-bottom-color: darken($grey-color-light, 12%);
+    background-color: lighten($dark-background-color, 3%);
+    border: 1px solid darken($dark-background-color, 4%);
+    border-bottom-color: darken($dark-background-color, 12%);
   }
   td {
-    border: 1px solid $grey-color-light;
+    border: 1px solid $dark-background-color;
   }
 }
